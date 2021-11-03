@@ -8,7 +8,6 @@
 xcode-select --install
 ```
 
-
 2. Clone repo into new hidden directory.
 
 ```zsh
@@ -19,7 +18,6 @@ git clone git@github.com:matt-ngo/dotfiles.git ~/.dotfiles
 git clone https://github.com/matt-ngo/dotfiles.git ~/.dotfiles
 ```
 
-
 3. Create symlinks in the Home directory to the real files in the repo.
 
 ```zsh
@@ -29,7 +27,6 @@ git clone https://github.com/matt-ngo/dotfiles.git ~/.dotfiles
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ```
-
 
 4. Install Homebrew, followed by the software listed in the Brewfile.
 
@@ -46,3 +43,7 @@ brew bundle --file ~/.dotfiles/Brewfile
 cd ~/.dotfiles && brew bundle
 ```
 
+## NOTES
+
+- see https://pawelgrzybek.com/sync-vscode-settings-and-snippets-via-dotfiles-on-github/
+  - https://github.com/pawelgrzybek/dotfiles/blob/master/.zshrc

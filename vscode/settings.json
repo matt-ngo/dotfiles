@@ -1,0 +1,145 @@
+{
+  "editor.fontFamily": "FIra Code",
+  "editor.fontLigatures": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.minimap.enabled": false,
+  "editor.cursorStyle": "line-thin",
+  "editor.cursorBlinking": "smooth",
+  "editor.rulers": [
+    {
+      "column": 80,
+      "color": "#ffffff28"
+    },
+    {
+      "column": 100,
+      "color": "#ffffff28"
+    }
+  ],
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+  "explorer.sortOrder": "type",
+  "workbench.colorTheme": "Gruvbox Material Dark",
+  "workbench.colorCustomizations": {},
+  "window.title": "${folderName}",
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4 }",
+  "C_Cpp.updateChannel": "Insiders",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "gruvboxMaterial.italicKeywords": true,
+  "debug.console.lineHeight": 25,
+  "window.zoomLevel": 0,
+  // //VIMRC
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<D-c>": false
+  },
+  // "vim.useCtrlKeys": true,
+  // "vim.cursorStylePerMode.normal": "line",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    // Save file
+    {
+      "before": ["<leader>", "<leader>"],
+      "commands": ["workbench.action.files.save"]
+    },
+    //split editor
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.splitEditor"]
+    },
+    //toggle side bar
+    {
+      "before": ["<leader>", "t"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    // //open find tab
+    // {
+    //   "before": ["<leader>", "f"],
+    //   "commands": ["revealInExplorer"]
+    // },
+    //rename current file
+    {
+      "before": ["<leader>", "r", "f"],
+      "commands": ["fileutils.renameFile"]
+    }
+  ],
+  "files.autoSave": "afterDelay",
+  "html.format.endWithNewline": true,
+  "html.format.wrapLineLength": 100,
+  "emmet.includeLanguages": {
+    "ejs": "html"
+  },
+  "emmet.extensionsPath": [
+    ""
+  ],
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+
+  // LANGUAGE SPECIFIC SETTINGS
+  "[javascript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[jsonc]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[css]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[html]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    // "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[ejs]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4
+  },
+  "[python]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "python.showStartPage": false,
+  "editor.fontSize": 13,
+  "prettier.singleQuote": true,
+  "eslint.format.enable": true,
+  "jupyter.alwaysTrustNotebooks": true,
+  "workbench.tree.indent": 12,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "workbench.editor.wrapTabs": true,
+  "explorer.decorations.badges": false,
+  "explorer.decorations.colors": false,
+  "workbench.editor.decorations.badges": true,
+  "files.associations": {
+    "*.pgsql": "sql"
+  },
+  "diffEditor.codeLens": true,
+  "editor.quickSuggestions": null,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "workbench.editor.untitled.hint": "hidden",
+  "gruvboxMaterial.darkContrast": "soft",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.inlineSuggest.enabled": true
+}

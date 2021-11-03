@@ -1,0 +1,59 @@
+{
+    // Place your snippets for html here. Each snippet is defined under a snippet name and has a prefix, body and 
+    // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+    // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+    // same ids are connected.
+    // Example:
+    // "Print to console": {
+    // 	"prefix": "log",
+    // 	"body": [
+    // 		"console.log('$1');",
+    // 		"$2"
+    // 	],
+    // 	"description": "Log output to console"
+    // }
+    // "bootstrap.css v3": {
+    //     "prefix": "bootstrap.css",
+    //     "body": [
+    //         "<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\" \nintegrity=\"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u\" \ncrossorigin=\"anonymous\">"
+    //     ],
+    //     "description": "Link Bootstrap CSS"
+    // },
+    // "bootstrap.js v3": {
+    //     "prefix": "bootstrap.js",
+    //     "body": [
+    //         "<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\" \nintegrity=\"sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa\" \ncrossorigin=\"anonymous\"></script>"
+    //     ],
+    //     "description": "Link Bootstrap JS"
+    // },
+    // "jquery.js": {
+    //     "prefix": "jquery.js",
+    //     "body": [
+    //         "<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\" \nintegrity=\"sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa\" \ncrossorigin=\"anonymous\"></script>"
+    //     ],
+    //     "description": "Link JQUERY JS"
+    // },
+    "fontawesome": {
+        "prefix": "fontawesome.js",
+        "body": [
+            "<script src=\"https://kit.fontawesome.com/27f2f9543e.js\" crossorigin=\"anonymous\"></script>"
+        ],
+        "description": "Link fontawesome JS"
+    },
+    "Bootstrap v5": {
+        "prefix": "bootstrap5",
+        "body": [
+            "<link rel=\"stylesheet\"",
+            "href=\"https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css\" ",
+            "integrity=\"sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I\" ",
+            "crossorigin=\"anonymous\">",
+            "<script src=\"https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js\" ",
+            "integrity=\"sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo\" ",
+            "crossorigin=\"anonymous\"></script>",
+            "<script src=\"https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js\" ",
+            "integrity=\"sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/\" ",
+            "crossorigin=\"anonymous\"></script>"
+        ],
+        "description": "Bootstrap 5 CDN"
+    }
+}
